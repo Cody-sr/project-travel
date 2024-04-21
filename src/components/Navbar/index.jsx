@@ -21,7 +21,7 @@ function Navbar() {
 							<span className="navbar-toggler-icon"></span>
 						</button>
 						<div
-							className="offcanvas offcanvas-start navbar-collapse"
+							className="offcanvas offcanvas-start navbar-collapse w-auto"
 							tabIndex="-1"
 							id="offcanvasNavbar"
 							aria-labelledby="offcanvasNavbarLabel"
@@ -37,7 +37,7 @@ function Navbar() {
 									aria-label="Close"
 								></button>
 							</div>
-							<div className="offcanvas-body ms-auto mb-2 mb-lg-0">
+							<div className="offcanvas-body ms-lg-auto mb-2 mb-lg-0">
 								<NavMenu />
 							</div>
 						</div>
